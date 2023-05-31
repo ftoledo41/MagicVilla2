@@ -11,8 +11,8 @@ namespace MagicVilla_API.Dto
         public string Details { get; set; }
         [Required]
         public double Tarifa { get; set; }
-        public int Occupants { get; set; }
-        public int SquareMeter { get; set; }
+        public int Ocupantes { get; set; }
+        public int MetrosCuadrados { get; set; }
         public string ImagenUrl { get; set; }
         public string Amenidad { get; set; }
     }
